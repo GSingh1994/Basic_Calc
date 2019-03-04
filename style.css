@@ -5,8 +5,40 @@
 
 .container{
 	display: grid;
-	border: 2px solid red;
-	width: 350px;
+	background: #01252a;
+	border: 0.2px solid red;
+	padding: 10px;
+	border-radius: 15px;
+	width: 300px;
 	height: 400px;
 	margin: 50px auto;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(5,1fr);
+	grid-gap: 10px 10px;
 }
+
+.button{
+	/*border: 0.5px solid blue;*/
+	color: #141414;
+	background-color: grey;
+	text-align: center;
+	font-weight: bold;
+	font-size: 44px;
+	border-radius: 15px;
+}
+
+.button:nth-of-type(even){
+	background-color: #e88a1a;
+}
+
+.button:nth-of-type(odd){
+	background-color: #a1dd70;
+}
+
+#special{
+	grid-column: 1 / span 4;
+	grid-row: 1 / 1;
+	background-color: #dfdfdf;
+	border-radius: 8px;
+}
+
