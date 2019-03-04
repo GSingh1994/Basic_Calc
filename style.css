@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	display: flex;
+	padding: 10px;
+	/*height: 100%;*/
+	flex-wrap: wrap;
+	width:45vh;
+	margin: 100px;
+	border-radius: 15px;
+	background: #acc6aa;
+}
+
+.button{
+	width: 40%;
+	height: 48px;
+	margin: 5px;
+	flex-basis: 20%;
+	border: 1px solid #5d3a3a;
+	text-align: center;
+	font-size: 34px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.button:nth-of-type(even){
+	background: #f7b633;
+}
+
+.button:nth-of-type(odd){
+	background: #bd512f;
+}
+
+#special{
+	flex-grow: 1;
+	background: white;
+}
