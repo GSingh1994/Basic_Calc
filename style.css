@@ -39,10 +39,12 @@ body{
 	background-color: #a1dd70;
 }
 
-#display{
+#special{
 	grid-column: 1 / span 4;
 	grid-row: 1 / 1;
 	background-color: #dfdfdf;
 	border-radius: 8px;
+	text-align: right;
+	padding-right: 10px;
 }
 
